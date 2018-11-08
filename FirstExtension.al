@@ -1,10 +1,10 @@
-table 50001 FirstExtensionTable
+table 50100 FirstExtensionTable
 {
     DataClassification = ToBeClassified;
 
     fields
     {
-        field(1; Code; Code)
+        field(1; "Code"; Integer)
         {
             DataClassification = ToBeClassified;
 
@@ -13,7 +13,7 @@ table 50001 FirstExtensionTable
 
     keys
     {
-        key(PK; MyField)
+        key(PK; Code)
         {
             Clustered = true;
         }

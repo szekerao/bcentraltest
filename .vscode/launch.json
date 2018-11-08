@@ -4,10 +4,10 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "Your own server",
-            "server": "https://itadvise-bc",
+            "name": "BCentralTest",
+            "server": "//itadvise-bc",
             "serverInstance": "NAV",
-            "authentication": "User",
+            "authentication": "UserPassword",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": true
